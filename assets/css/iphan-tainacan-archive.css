@@ -15,6 +15,7 @@ body:not(.tainacan-admin-page) .tainacan-modal {
     --tainacan-filter-menu-width-theme: 280px !important;
     --tainacan-heading-color: var(--tainacan-secondary) !important;
 }
+.datepicker .dropdown-content,
 .tainacan-modal .tainacan-modal-content {
     --tainacan-background-color: var(--tainacan-item-background-color);
     box-shadow: 0px 10px 20px rgba(41, 51, 61, 0.1);
@@ -61,7 +62,9 @@ body:not(.tainacan-admin-page) .tainacan-modal {
     padding-right: 0px !important;
 }
 .tainacan-records-container .tainacan-record .metadata-title p,
-.tainacan-masonry-container .tainacan-masonry-item .metadata-title p {
+.tainacan-masonry-container .tainacan-masonry-item .metadata-title p,
+.tainacan-mosaic-container .tainacan-mosaic-item .metadata-title p,
+.tainacan-list-container .tainacan-list .metadata-title p {
     font-weight: bold !important;
 }
 .tainacan-records-container .tainacan-record {
@@ -71,6 +74,9 @@ body:not(.tainacan-admin-page) .tainacan-modal {
 .theme-items-list #items-list-area #items-list-results .tainacan-masonry-container .tainacan-masonry-item .metadata-title p {
     text-align: center !important;
     line-height: 1.55em !important;
+    font-size: 1em !important;
+}
+.theme-items-list #items-list-area #items-list-results .tainacan-list-container .tainacan-list .metadata-title p {
     font-size: 1em !important;
 }
 

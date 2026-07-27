@@ -6,7 +6,8 @@
 /* Esconde banner de avisos inseridos pelo plugin de animação */
 .otter-animation-welcome-notice,
 .themeisle-sdk-notice,
-.ti-sdk-neve-fse-notice {
+.ti-sdk-neve-fse-notice,
+.ti-sdk-om-notice {
     display: none;
     visibility: hidden;
 }

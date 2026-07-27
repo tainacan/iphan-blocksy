@@ -56,7 +56,7 @@ foreach ($metadata_sections as $metadata_section) {
 
 $metadata_args = array(
     'display_slug_as_class' => true,
-    'before' 				=> '<div class="tainacan-item-section__metadatum metadata-type-$type" id="$id">',
+    'before' 				=> '<div class="tainacan-item-section__metadatum metadata-type-$type" $id>',
     'after' 				=> '</div>',
     'before_title' => '<h3 class="tainacan-metadata-label">',
     'after_title' => '</h3>',
